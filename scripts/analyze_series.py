@@ -111,13 +111,14 @@ def main():
     print(f"Projection (next {PROJECT_STEPS} days, ppm): {[p['value'] for p in projection]}")
 
     honest_note = (
-        f"Projection covers {PROJECT_STEPS} days ahead from {len(cleaned)} days of "
-        f"real CO2 history ({len(gap_ranges)} known gap(s) in the source data). "
-        "This is a straight line through one seasonal window of real atmospheric "
-        "data -- CO2 has a well-known yearly cycle (lower in the Northern "
-        "Hemisphere's growing season, higher in winter), so a trend measured over "
-        "90 summer/autumn days should NOT be extrapolated across season boundaries. "
-        "Trust this projection only a few days out."
+        f"La projection couvre {PROJECT_STEPS} jours à partir de {len(cleaned)} jours "
+        f"d'historique réel de CO2 ({len(gap_ranges)} trou(s) connu(s) dans la source). "
+        "C'est une simple droite tracée sur une seule fenêtre saisonnière de données "
+        "atmosphériques réelles -- le CO2 suit un cycle annuel bien connu (plus bas "
+        "pendant la saison de croissance de l'hémisphère nord, plus haut en hiver), "
+        "donc une tendance mesurée sur 90 jours d'été/automne ne doit PAS être "
+        "extrapolée au-delà d'un changement de saison. "
+        "Ne faites confiance à cette projection que sur quelques jours."
     )
     print(f"\nHonesty note: {honest_note}")
 

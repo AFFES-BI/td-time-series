@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="utf-8">
-<title>CO2 time series lab — cleaning, smoothing, projection</title>
+<title>Labo série temporelle CO2 — nettoyage, lissage, projection</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <style>
   body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
@@ -16,9 +16,8 @@
 </style>
 </head>
 <body>
-  <h1>CO2 time series lab</h1>
-  <p>Real atmospheric CO2 (ppm) for Le Mans, from Open-Meteo's Air Quality API — raw values, a rolling mean, exponential smoothing, and a linear-trend projection, all computed by <code>scripts/analyze_series.py</code> from <code>data/series.csv</code>.</p>
-  <div class="kpis" id="kpis">Loading...</div>
+  <h1>Labo série temporelle CO2</h1>
+  <div class="kpis" id="kpis">Chargement...</div>
   <div id="honesty"></div>
   <canvas id="seriesChart" height="320"></canvas>
   <p id="updated"></p>
@@ -29,7 +28,7 @@ fetch('data/series_analysis.json')
   .then(data => {
     const raw = data.raw || [];
     if (raw.length === 0) {
-      document.getElementById('kpis').innerHTML = '<p>No analysis yet -- run "Update analysis" from the Actions tab.</p>';
+      document.getElementById('kpis').innerHTML = '<p>Pas encore d\'analyse -- lancez « Update analysis » depuis l\'onglet Actions.</p>';
       return;
     }
     const rollingMean = data.rolling_mean || [];
@@ -39,13 +38,13 @@ fetch('data/series_analysis.json')
     const unit = data.unit || '';
 
     document.getElementById('kpis').innerHTML = `
-      <div class="kpi"><div class="value">${raw.length}</div><div class="label">Observed days</div></div>
-      <div class="kpi"><div class="value">${gaps.length}</div><div class="label">Detected gap(s)</div></div>
-      <div class="kpi"><div class="value">${data.trend_slope_per_day >= 0 ? '+' : ''}${data.trend_slope_per_day} ${unit}</div><div class="label">Trend per day</div></div>
-      <div class="kpi"><div class="value">${raw[raw.length - 1].value} ${unit}</div><div class="label">Most recent reading</div></div>
+      <div class="kpi"><div class="value">${raw.length}</div><div class="label">Jours observés</div></div>
+      <div class="kpi"><div class="value">${gaps.length}</div><div class="label">Trou(s) détecté(s)</div></div>
+      <div class="kpi"><div class="value">${data.trend_slope_per_day >= 0 ? '+' : ''}${data.trend_slope_per_day} ${unit}</div><div class="label">Tendance par jour</div></div>
+      <div class="kpi"><div class="value">${raw[raw.length - 1].value} ${unit}</div><div class="label">Dernière mesure</div></div>
     `;
 
-    document.getElementById('honesty').innerHTML = `<strong>Honesty note:</strong> ${data.honest_note}`;
+    document.getElementById('honesty').innerHTML = `<strong>Note d'honnêteté :</strong> ${data.honest_note}`;
 
     // One shared x-axis (real calendar dates) covering every day that appears in
     // ANY series (raw, rolling mean, or projection) -- each dataset is null
@@ -63,10 +62,10 @@ fetch('data/series_analysis.json')
     }
 
     const datasets = [
-      { label: `Observed (${unit})`, data: seriesFor(raw), borderColor: '#0d7c9e', backgroundColor: 'transparent', pointRadius: 2, borderWidth: 2 },
-      { label: 'Rolling mean (7-day)', data: seriesFor(rollingMean), borderColor: '#2e8b46', backgroundColor: 'transparent', pointRadius: 0, borderWidth: 2 },
-      { label: 'Exponential smoothing', data: seriesFor(expSmoothed), borderColor: '#8b2ea0', backgroundColor: 'transparent', pointRadius: 0, borderWidth: 1, borderDash: [2, 2] },
-      { label: 'Projection (low confidence)', data: seriesFor(projection), borderColor: '#c46e0a', backgroundColor: 'transparent', pointRadius: 3, borderWidth: 2, borderDash: [6, 4] },
+      { label: `Observé (${unit})`, data: seriesFor(raw), borderColor: '#0d7c9e', backgroundColor: 'transparent', pointRadius: 2, borderWidth: 2 },
+      { label: 'Moyenne glissante (7 jours)', data: seriesFor(rollingMean), borderColor: '#2e8b46', backgroundColor: 'transparent', pointRadius: 0, borderWidth: 2 },
+      { label: 'Lissage exponentiel', data: seriesFor(expSmoothed), borderColor: '#8b2ea0', backgroundColor: 'transparent', pointRadius: 0, borderWidth: 1, borderDash: [2, 2] },
+      { label: 'Projection (faible confiance)', data: seriesFor(projection), borderColor: '#c46e0a', backgroundColor: 'transparent', pointRadius: 3, borderWidth: 2, borderDash: [6, 4] },
     ];
 
     new Chart(document.getElementById('seriesChart'), {
@@ -74,7 +73,7 @@ fetch('data/series_analysis.json')
       data: { labels: allLabels, datasets },
       options: {
         plugins: {
-          title: { display: true, text: `Real atmospheric CO2 (${unit}), Le Mans — raw → cleaned → smoothed → projected (dashed = beyond observed data)` },
+          title: { display: true, text: `CO2 atmosphérique réel (${unit}), Paris — brut → nettoyé → lissé → projeté (pointillés = au-delà des données observées)` },
           tooltip: { mode: 'index', intersect: false },
         },
         scales: {
@@ -86,11 +85,11 @@ fetch('data/series_analysis.json')
     });
 
     document.getElementById('updated').textContent =
-      `Data last analyzed ${data.generated_at || '(no timestamp -- see script output)'}` +
-      (gaps.length ? ` -- gap(s) detected: ${gaps.map(g => `${g.start_date} to ${g.end_date}`).join(', ')}` : ' -- no gaps in this pull.');
+      `Données analysées le ${data.generated_at || '(pas d\'horodatage -- voir la sortie du script)'}` +
+      (gaps.length ? ` -- trou(s) détecté(s) : ${gaps.map(g => `${g.start_date} au ${g.end_date}`).join(', ')}` : ' -- aucun trou dans cette récupération.');
   })
   .catch(err => {
-    document.getElementById('kpis').innerHTML = '<p>Could not load analysis (' + err + ').</p>';
+    document.getElementById('kpis').innerHTML = '<p>Impossible de charger l\'analyse (' + err + ').</p>';
   });
 </script>
 </body>
