@@ -1,11 +1,18 @@
 # td-time-series
 
-TD4 (BI) — real atmospheric CO2 time series for Le Mans from the Open-Meteo Air Quality API:
-collection, cleaning, smoothing (rolling mean, exponential), and a short linear projection,
-published as a dashboard on GitHub Pages.
+## Tableau de bord
 
-- `scripts/fetch_series.py` — pulls 90 days of hourly CO2, aggregates to daily, writes `data/series.csv`
-- `scripts/analyze_series.py` — cleans, smooths, projects, writes `docs/data/series_analysis.json`
-- `.github/workflows/update_series.yml` — runs both weekly (Monday 06:00 UTC) or on demand
-- `docs/index.html` — the dashboard
-- `REFLECTIONS.md` — written answers to the TD's reflection questions
+[Ouvrir le dashboard (Paris)](https://affes-bi.github.io/td-time-series/)
+
+[Voir la première version (Le Mans, instantané du 09/11/2026)](https://affes-bi.github.io/td-time-series/lemans/)
+
+Ce tableau de bord affiche l'évolution du CO2 atmosphérique réel (en ppm) sur 90 jours,
+issu de l'API Air Quality d'Open-Meteo : valeurs brutes, moyenne glissante, lissage
+exponentiel et projection à 7 jours par tendance linéaire. Les données sont récupérées
+et recalculées chaque lundi par une GitHub Action. Le lieu de la page principale est
+Paris ; la version initiale du TD (Le Mans) est conservée comme instantané figé pour
+comparer les deux tendances.
+
+## Réflexions
+
+[Consulter mes réponses au TD](REFLECTIONS.md)
