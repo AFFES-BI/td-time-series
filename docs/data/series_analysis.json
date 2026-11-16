@@ -1,1220 +1,1220 @@
 {
-  "generated_at": "2026-11-09T15:00:10Z",
+  "generated_at": "2026-11-16T08:05:09Z",
   "unit": "ppm",
   "raw": [
     {
       "day": 0,
-      "date": "2026-08-11",
-      "value": 440.5
-    },
-    {
-      "day": 1,
-      "date": "2026-08-12",
-      "value": 443.9
-    },
-    {
-      "day": 2,
-      "date": "2026-08-13",
-      "value": 450.3
-    },
-    {
-      "day": 3,
-      "date": "2026-08-14",
-      "value": 457.9
-    },
-    {
-      "day": 4,
-      "date": "2026-08-15",
-      "value": 452.2
-    },
-    {
-      "day": 5,
-      "date": "2026-08-16",
-      "value": 442.7
-    },
-    {
-      "day": 6,
-      "date": "2026-08-17",
-      "value": 441.0
-    },
-    {
-      "day": 7,
       "date": "2026-08-18",
       "value": 441.0
     },
     {
-      "day": 8,
+      "day": 1,
       "date": "2026-08-19",
       "value": 442.9
     },
     {
-      "day": 9,
+      "day": 2,
       "date": "2026-08-20",
       "value": 437.9
     },
     {
-      "day": 10,
+      "day": 3,
       "date": "2026-08-21",
       "value": 438.2
     },
     {
-      "day": 11,
+      "day": 4,
       "date": "2026-08-22",
       "value": 435.7
     },
     {
-      "day": 12,
+      "day": 5,
       "date": "2026-08-23",
       "value": 433.2
     },
     {
-      "day": 13,
+      "day": 6,
       "date": "2026-08-24",
       "value": 434.1
     },
     {
-      "day": 14,
+      "day": 7,
       "date": "2026-08-25",
       "value": 445.5
     },
     {
-      "day": 15,
+      "day": 8,
       "date": "2026-08-26",
       "value": 450.1
     },
     {
-      "day": 16,
+      "day": 9,
       "date": "2026-08-27",
       "value": 446.5
     },
     {
-      "day": 17,
+      "day": 10,
       "date": "2026-08-28",
       "value": 445.1
     },
     {
-      "day": 18,
+      "day": 11,
       "date": "2026-08-29",
       "value": 436.7
     },
     {
-      "day": 19,
+      "day": 12,
       "date": "2026-08-30",
       "value": 436.5
     },
     {
-      "day": 20,
+      "day": 13,
       "date": "2026-08-31",
       "value": 433.9
     },
     {
-      "day": 21,
+      "day": 14,
       "date": "2026-09-01",
       "value": 440.0
     },
     {
-      "day": 22,
+      "day": 15,
       "date": "2026-09-02",
       "value": 453.1
     },
     {
-      "day": 23,
+      "day": 16,
       "date": "2026-09-03",
       "value": 444.9
     },
     {
-      "day": 24,
+      "day": 17,
       "date": "2026-09-04",
       "value": 445.0
     },
     {
-      "day": 25,
+      "day": 18,
       "date": "2026-09-05",
       "value": 438.0
     },
     {
-      "day": 26,
+      "day": 19,
       "date": "2026-09-06",
       "value": 441.1
     },
     {
-      "day": 27,
+      "day": 20,
       "date": "2026-09-07",
       "value": 449.6
     },
     {
-      "day": 28,
+      "day": 21,
       "date": "2026-09-08",
       "value": 437.8
     },
     {
-      "day": 29,
+      "day": 22,
       "date": "2026-09-09",
       "value": 436.7
     },
     {
-      "day": 30,
+      "day": 23,
       "date": "2026-09-10",
       "value": 452.0
     },
     {
-      "day": 31,
+      "day": 24,
       "date": "2026-09-11",
       "value": 455.0
     },
     {
-      "day": 32,
+      "day": 25,
       "date": "2026-09-12",
       "value": 449.6
     },
     {
-      "day": 33,
+      "day": 26,
       "date": "2026-09-13",
       "value": 444.6
     },
     {
-      "day": 34,
+      "day": 27,
       "date": "2026-09-14",
       "value": 453.0
     },
     {
-      "day": 35,
+      "day": 28,
       "date": "2026-09-15",
       "value": 453.4
     },
     {
-      "day": 36,
+      "day": 29,
       "date": "2026-09-16",
       "value": 436.1
     },
     {
-      "day": 37,
+      "day": 30,
       "date": "2026-09-17",
       "value": 440.6
     },
     {
-      "day": 38,
+      "day": 31,
       "date": "2026-09-18",
       "value": 442.1
     },
     {
-      "day": 39,
+      "day": 32,
       "date": "2026-09-19",
       "value": 450.1
     },
     {
-      "day": 40,
+      "day": 33,
       "date": "2026-09-20",
       "value": 442.9
     },
     {
-      "day": 41,
+      "day": 34,
       "date": "2026-09-21",
       "value": 444.5
     },
     {
-      "day": 42,
+      "day": 35,
       "date": "2026-09-22",
       "value": 449.1
     },
     {
-      "day": 43,
+      "day": 36,
       "date": "2026-09-23",
       "value": 454.5
     },
     {
-      "day": 44,
+      "day": 37,
       "date": "2026-09-24",
       "value": 458.1
     },
     {
-      "day": 45,
+      "day": 38,
       "date": "2026-09-25",
       "value": 459.7
     },
     {
-      "day": 46,
+      "day": 39,
       "date": "2026-09-26",
       "value": 455.7
     },
     {
-      "day": 47,
+      "day": 40,
       "date": "2026-09-27",
       "value": 460.5
     },
     {
-      "day": 48,
+      "day": 41,
       "date": "2026-09-28",
       "value": 457.2
     },
     {
-      "day": 49,
+      "day": 42,
       "date": "2026-09-29",
       "value": 459.6
     },
     {
-      "day": 50,
+      "day": 43,
       "date": "2026-09-30",
       "value": 458.6
     },
     {
-      "day": 51,
+      "day": 44,
       "date": "2026-10-01",
       "value": 453.5
     },
     {
-      "day": 52,
+      "day": 45,
       "date": "2026-10-02",
       "value": 457.4
     },
     {
-      "day": 53,
+      "day": 46,
       "date": "2026-10-03",
       "value": 450.7
     },
     {
-      "day": 54,
+      "day": 47,
       "date": "2026-10-04",
       "value": 455.6
     },
     {
-      "day": 55,
+      "day": 48,
       "date": "2026-10-05",
       "value": 462.4
     },
     {
-      "day": 56,
+      "day": 49,
       "date": "2026-10-06",
       "value": 464.7
     },
     {
-      "day": 57,
+      "day": 50,
       "date": "2026-10-07",
       "value": 485.3
     },
     {
-      "day": 58,
+      "day": 51,
       "date": "2026-10-08",
       "value": 442.8
     },
     {
-      "day": 59,
+      "day": 52,
       "date": "2026-10-09",
       "value": 447.8
     },
     {
-      "day": 60,
+      "day": 53,
       "date": "2026-10-10",
       "value": 443.9
     },
     {
-      "day": 61,
+      "day": 54,
       "date": "2026-10-11",
       "value": 451.0
     },
     {
-      "day": 62,
+      "day": 55,
       "date": "2026-10-12",
       "value": 459.6
     },
     {
-      "day": 63,
+      "day": 56,
       "date": "2026-10-13",
       "value": 466.3
     },
     {
-      "day": 64,
+      "day": 57,
       "date": "2026-10-14",
       "value": 479.1
     },
     {
-      "day": 65,
+      "day": 58,
       "date": "2026-10-15",
       "value": 476.2
     },
     {
-      "day": 66,
+      "day": 59,
       "date": "2026-10-16",
       "value": 457.3
     },
     {
-      "day": 67,
+      "day": 60,
       "date": "2026-10-17",
       "value": 441.9
     },
     {
-      "day": 68,
+      "day": 61,
       "date": "2026-10-18",
       "value": 450.0
     },
     {
-      "day": 69,
+      "day": 62,
       "date": "2026-10-19",
       "value": 458.0
     },
     {
-      "day": 70,
+      "day": 63,
       "date": "2026-10-20",
       "value": 457.3
     },
     {
-      "day": 71,
+      "day": 64,
       "date": "2026-10-21",
       "value": 446.8
     },
     {
-      "day": 72,
+      "day": 65,
       "date": "2026-10-22",
       "value": 446.2
     },
     {
-      "day": 73,
+      "day": 66,
       "date": "2026-10-23",
       "value": 442.3
     },
     {
-      "day": 74,
+      "day": 67,
       "date": "2026-10-24",
       "value": 445.2
     },
     {
-      "day": 75,
+      "day": 68,
       "date": "2026-10-25",
       "value": 444.0
     },
     {
-      "day": 76,
+      "day": 69,
       "date": "2026-10-26",
       "value": 457.3
     },
     {
-      "day": 77,
+      "day": 70,
       "date": "2026-10-27",
       "value": 453.2
     },
     {
-      "day": 78,
+      "day": 71,
       "date": "2026-10-28",
       "value": 514.0
     },
     {
-      "day": 79,
+      "day": 72,
       "date": "2026-10-29",
       "value": 484.9
     },
     {
-      "day": 80,
+      "day": 73,
       "date": "2026-10-30",
       "value": 457.0
     },
     {
-      "day": 81,
+      "day": 74,
       "date": "2026-10-31",
       "value": 458.3
     },
     {
-      "day": 82,
+      "day": 75,
       "date": "2026-11-01",
       "value": 460.1
     },
     {
-      "day": 83,
+      "day": 76,
       "date": "2026-11-02",
       "value": 459.1
     },
     {
-      "day": 84,
+      "day": 77,
       "date": "2026-11-03",
       "value": 452.5
     },
     {
-      "day": 85,
+      "day": 78,
       "date": "2026-11-04",
       "value": 456.5
     },
     {
-      "day": 86,
+      "day": 79,
       "date": "2026-11-05",
       "value": 471.8
     },
     {
-      "day": 87,
+      "day": 80,
       "date": "2026-11-06",
       "value": 524.8
     },
     {
-      "day": 88,
+      "day": 81,
       "date": "2026-11-07",
       "value": 518.4
     },
     {
-      "day": 89,
+      "day": 82,
       "date": "2026-11-08",
       "value": 493.4
+    },
+    {
+      "day": 83,
+      "date": "2026-11-09",
+      "value": 476.6
+    },
+    {
+      "day": 84,
+      "date": "2026-11-10",
+      "value": 479.9
+    },
+    {
+      "day": 85,
+      "date": "2026-11-11",
+      "value": 484.7
+    },
+    {
+      "day": 86,
+      "date": "2026-11-12",
+      "value": 468.0
+    },
+    {
+      "day": 87,
+      "date": "2026-11-13",
+      "value": 465.0
+    },
+    {
+      "day": 88,
+      "date": "2026-11-14",
+      "value": 467.2
+    },
+    {
+      "day": 89,
+      "date": "2026-11-15",
+      "value": 456.6
     }
   ],
   "gaps": [],
   "rolling_mean": [
     {
       "day": 0,
-      "value": 440.5
+      "value": 441.0
     },
     {
       "day": 1,
-      "value": 442.2
+      "value": 441.95
     },
     {
       "day": 2,
-      "value": 444.9
+      "value": 440.6
     },
     {
       "day": 3,
-      "value": 448.15
+      "value": 440.0
     },
     {
       "day": 4,
-      "value": 448.96
+      "value": 439.14
     },
     {
       "day": 5,
-      "value": 447.92
+      "value": 438.15
     },
     {
       "day": 6,
-      "value": 446.93
-    },
-    {
-      "day": 7,
-      "value": 447.0
-    },
-    {
-      "day": 8,
-      "value": 446.86
-    },
-    {
-      "day": 9,
-      "value": 445.09
-    },
-    {
-      "day": 10,
-      "value": 442.27
-    },
-    {
-      "day": 11,
-      "value": 439.91
-    },
-    {
-      "day": 12,
-      "value": 438.56
-    },
-    {
-      "day": 13,
       "value": 437.57
     },
     {
-      "day": 14,
+      "day": 7,
       "value": 438.21
     },
     {
-      "day": 15,
+      "day": 8,
       "value": 439.24
     },
     {
-      "day": 16,
+      "day": 9,
       "value": 440.47
     },
     {
-      "day": 17,
+      "day": 10,
       "value": 441.46
     },
     {
-      "day": 18,
+      "day": 11,
       "value": 441.6
     },
     {
-      "day": 19,
+      "day": 12,
       "value": 442.07
     },
     {
-      "day": 20,
+      "day": 13,
       "value": 442.04
     },
     {
-      "day": 21,
+      "day": 14,
       "value": 441.26
     },
     {
-      "day": 22,
+      "day": 15,
       "value": 441.69
     },
     {
-      "day": 23,
+      "day": 16,
       "value": 441.46
     },
     {
-      "day": 24,
+      "day": 17,
       "value": 441.44
     },
     {
-      "day": 25,
+      "day": 18,
       "value": 441.63
     },
     {
-      "day": 26,
+      "day": 19,
       "value": 442.29
     },
     {
-      "day": 27,
+      "day": 20,
       "value": 444.53
     },
     {
-      "day": 28,
+      "day": 21,
       "value": 444.21
     },
     {
-      "day": 29,
+      "day": 22,
       "value": 441.87
     },
     {
-      "day": 30,
+      "day": 23,
       "value": 442.89
     },
     {
-      "day": 31,
+      "day": 24,
       "value": 444.31
     },
     {
-      "day": 32,
+      "day": 25,
       "value": 445.97
     },
     {
-      "day": 33,
+      "day": 26,
       "value": 446.47
     },
     {
-      "day": 34,
+      "day": 27,
       "value": 446.96
     },
     {
-      "day": 35,
+      "day": 28,
       "value": 449.19
     },
     {
-      "day": 36,
+      "day": 29,
       "value": 449.1
     },
     {
-      "day": 37,
+      "day": 30,
       "value": 447.47
     },
     {
-      "day": 38,
+      "day": 31,
       "value": 445.63
     },
     {
-      "day": 39,
+      "day": 32,
       "value": 445.7
     },
     {
-      "day": 40,
+      "day": 33,
       "value": 445.46
     },
     {
-      "day": 41,
+      "day": 34,
       "value": 444.24
     },
     {
-      "day": 42,
+      "day": 35,
       "value": 443.63
     },
     {
-      "day": 43,
+      "day": 36,
       "value": 446.26
     },
     {
-      "day": 44,
+      "day": 37,
       "value": 448.76
     },
     {
-      "day": 45,
+      "day": 38,
       "value": 451.27
     },
     {
-      "day": 46,
+      "day": 39,
       "value": 452.07
     },
     {
-      "day": 47,
+      "day": 40,
       "value": 454.59
     },
     {
-      "day": 48,
+      "day": 41,
       "value": 456.4
     },
     {
-      "day": 49,
+      "day": 42,
       "value": 457.9
     },
     {
-      "day": 50,
+      "day": 43,
       "value": 458.49
     },
     {
-      "day": 51,
+      "day": 44,
       "value": 457.83
     },
     {
-      "day": 52,
+      "day": 45,
       "value": 457.5
     },
     {
-      "day": 53,
+      "day": 46,
       "value": 456.79
     },
     {
-      "day": 54,
+      "day": 47,
       "value": 456.09
     },
     {
-      "day": 55,
+      "day": 48,
       "value": 456.83
     },
     {
-      "day": 56,
+      "day": 49,
       "value": 457.56
     },
     {
-      "day": 57,
+      "day": 50,
       "value": 461.37
     },
     {
-      "day": 58,
+      "day": 51,
       "value": 459.84
     },
     {
-      "day": 59,
+      "day": 52,
       "value": 458.47
     },
     {
-      "day": 60,
+      "day": 53,
       "value": 457.5
     },
     {
-      "day": 61,
+      "day": 54,
       "value": 456.84
     },
     {
-      "day": 62,
+      "day": 55,
       "value": 456.44
     },
     {
-      "day": 63,
+      "day": 56,
       "value": 456.67
     },
     {
-      "day": 64,
+      "day": 57,
       "value": 455.79
     },
     {
-      "day": 65,
+      "day": 58,
       "value": 460.56
     },
     {
-      "day": 66,
+      "day": 59,
       "value": 461.91
     },
     {
-      "day": 67,
+      "day": 60,
       "value": 461.63
     },
     {
-      "day": 68,
+      "day": 61,
       "value": 461.49
     },
     {
-      "day": 69,
+      "day": 62,
       "value": 461.26
     },
     {
-      "day": 70,
+      "day": 63,
       "value": 459.97
     },
     {
-      "day": 71,
+      "day": 64,
       "value": 455.36
     },
     {
-      "day": 72,
+      "day": 65,
       "value": 451.07
     },
     {
-      "day": 73,
+      "day": 66,
       "value": 448.93
     },
     {
-      "day": 74,
+      "day": 67,
       "value": 449.4
     },
     {
-      "day": 75,
+      "day": 68,
       "value": 448.54
     },
     {
-      "day": 76,
+      "day": 69,
       "value": 448.44
     },
     {
-      "day": 77,
+      "day": 70,
       "value": 447.86
     },
     {
-      "day": 78,
+      "day": 71,
       "value": 457.46
     },
     {
-      "day": 79,
+      "day": 72,
       "value": 462.99
     },
     {
-      "day": 80,
+      "day": 73,
       "value": 465.09
     },
     {
-      "day": 81,
+      "day": 74,
       "value": 466.96
     },
     {
-      "day": 82,
+      "day": 75,
       "value": 469.26
     },
     {
-      "day": 83,
+      "day": 76,
       "value": 469.51
     },
     {
-      "day": 84,
+      "day": 77,
       "value": 469.41
     },
     {
-      "day": 85,
+      "day": 78,
       "value": 461.2
     },
     {
-      "day": 86,
+      "day": 79,
       "value": 459.33
     },
     {
-      "day": 87,
+      "day": 80,
       "value": 469.01
     },
     {
-      "day": 88,
+      "day": 81,
       "value": 477.6
     },
     {
-      "day": 89,
+      "day": 82,
       "value": 482.36
+    },
+    {
+      "day": 83,
+      "value": 484.86
+    },
+    {
+      "day": 84,
+      "value": 488.77
+    },
+    {
+      "day": 85,
+      "value": 492.8
+    },
+    {
+      "day": 86,
+      "value": 492.26
+    },
+    {
+      "day": 87,
+      "value": 483.71
+    },
+    {
+      "day": 88,
+      "value": 476.4
+    },
+    {
+      "day": 89,
+      "value": 471.14
     }
   ],
   "exp_smoothed": [
     {
       "day": 0,
-      "value": 440.5
+      "value": 441.0
     },
     {
       "day": 1,
-      "value": 441.52
+      "value": 441.57
     },
     {
       "day": 2,
-      "value": 444.15
+      "value": 440.47
     },
     {
       "day": 3,
-      "value": 448.27
+      "value": 439.79
     },
     {
       "day": 4,
-      "value": 449.45
+      "value": 438.56
     },
     {
       "day": 5,
-      "value": 447.42
+      "value": 436.95
     },
     {
       "day": 6,
-      "value": 445.49
+      "value": 436.09
     },
     {
       "day": 7,
-      "value": 444.14
+      "value": 438.91
     },
     {
       "day": 8,
-      "value": 443.77
+      "value": 442.27
     },
     {
       "day": 9,
-      "value": 442.01
+      "value": 443.54
     },
     {
       "day": 10,
-      "value": 440.87
+      "value": 444.01
     },
     {
       "day": 11,
-      "value": 439.32
+      "value": 441.82
     },
     {
       "day": 12,
-      "value": 437.48
+      "value": 440.22
     },
     {
       "day": 13,
-      "value": 436.47
+      "value": 438.32
     },
     {
       "day": 14,
-      "value": 439.18
+      "value": 438.82
     },
     {
       "day": 15,
-      "value": 442.46
+      "value": 443.1
     },
     {
       "day": 16,
-      "value": 443.67
+      "value": 443.64
     },
     {
       "day": 17,
-      "value": 444.1
-    },
-    {
-      "day": 18,
-      "value": 441.88
-    },
-    {
-      "day": 19,
-      "value": 440.27
-    },
-    {
-      "day": 20,
-      "value": 438.36
-    },
-    {
-      "day": 21,
-      "value": 438.85
-    },
-    {
-      "day": 22,
-      "value": 443.12
-    },
-    {
-      "day": 23,
-      "value": 443.65
-    },
-    {
-      "day": 24,
       "value": 444.05
     },
     {
-      "day": 25,
+      "day": 18,
       "value": 442.24
     },
     {
-      "day": 26,
+      "day": 19,
       "value": 441.9
     },
     {
-      "day": 27,
+      "day": 20,
       "value": 444.21
     },
     {
-      "day": 28,
+      "day": 21,
       "value": 442.29
     },
     {
-      "day": 29,
+      "day": 22,
       "value": 440.61
     },
     {
-      "day": 30,
+      "day": 23,
       "value": 444.03
     },
     {
-      "day": 31,
+      "day": 24,
       "value": 447.32
     },
     {
-      "day": 32,
+      "day": 25,
       "value": 448.0
     },
     {
-      "day": 33,
+      "day": 26,
       "value": 446.98
     },
     {
-      "day": 34,
+      "day": 27,
       "value": 448.79
     },
     {
-      "day": 35,
+      "day": 28,
       "value": 450.17
     },
     {
-      "day": 36,
+      "day": 29,
       "value": 445.95
     },
     {
-      "day": 37,
+      "day": 30,
       "value": 444.34
     },
     {
-      "day": 38,
+      "day": 31,
       "value": 443.67
     },
     {
-      "day": 39,
+      "day": 32,
       "value": 445.6
     },
     {
-      "day": 40,
+      "day": 33,
       "value": 444.79
     },
     {
-      "day": 41,
+      "day": 34,
       "value": 444.7
     },
     {
-      "day": 42,
+      "day": 35,
       "value": 446.02
     },
     {
-      "day": 43,
+      "day": 36,
       "value": 448.56
     },
     {
-      "day": 44,
+      "day": 37,
       "value": 451.42
     },
     {
-      "day": 45,
+      "day": 38,
       "value": 453.9
     },
     {
-      "day": 46,
+      "day": 39,
       "value": 454.44
     },
     {
-      "day": 47,
+      "day": 40,
       "value": 456.26
     },
     {
-      "day": 48,
+      "day": 41,
       "value": 456.54
     },
     {
-      "day": 49,
+      "day": 42,
       "value": 457.46
     },
     {
-      "day": 50,
+      "day": 43,
       "value": 457.8
     },
     {
-      "day": 51,
+      "day": 44,
       "value": 456.51
     },
     {
-      "day": 52,
+      "day": 45,
       "value": 456.78
     },
     {
-      "day": 53,
+      "day": 46,
       "value": 454.96
     },
     {
-      "day": 54,
+      "day": 47,
       "value": 455.15
     },
     {
-      "day": 55,
+      "day": 48,
       "value": 457.32
     },
     {
-      "day": 56,
+      "day": 49,
       "value": 459.53
     },
     {
-      "day": 57,
+      "day": 50,
       "value": 467.26
     },
     {
-      "day": 58,
+      "day": 51,
       "value": 459.92
     },
     {
-      "day": 59,
+      "day": 52,
       "value": 456.28
     },
     {
-      "day": 60,
+      "day": 53,
       "value": 452.57
     },
     {
-      "day": 61,
+      "day": 54,
       "value": 452.1
     },
     {
-      "day": 62,
+      "day": 55,
       "value": 454.35
     },
     {
-      "day": 63,
+      "day": 56,
       "value": 457.94
     },
     {
-      "day": 64,
+      "day": 57,
       "value": 464.29
     },
     {
-      "day": 65,
+      "day": 58,
       "value": 467.86
     },
     {
-      "day": 66,
+      "day": 59,
       "value": 464.69
     },
     {
-      "day": 67,
+      "day": 60,
       "value": 457.85
     },
     {
-      "day": 68,
+      "day": 61,
       "value": 455.5
     },
     {
-      "day": 69,
+      "day": 62,
       "value": 456.25
     },
     {
-      "day": 70,
+      "day": 63,
       "value": 456.56
     },
     {
-      "day": 71,
+      "day": 64,
       "value": 453.63
     },
     {
-      "day": 72,
+      "day": 65,
       "value": 451.4
     },
     {
-      "day": 73,
+      "day": 66,
       "value": 448.67
     },
     {
-      "day": 74,
+      "day": 67,
       "value": 447.63
     },
     {
-      "day": 75,
+      "day": 68,
       "value": 446.54
     },
     {
-      "day": 76,
+      "day": 69,
       "value": 449.77
     },
     {
-      "day": 77,
+      "day": 70,
       "value": 450.8
     },
     {
-      "day": 78,
+      "day": 71,
       "value": 469.76
     },
     {
-      "day": 79,
+      "day": 72,
       "value": 474.3
     },
     {
-      "day": 80,
+      "day": 73,
       "value": 469.11
     },
     {
-      "day": 81,
+      "day": 74,
       "value": 465.87
     },
     {
-      "day": 82,
+      "day": 75,
       "value": 464.14
     },
     {
-      "day": 83,
+      "day": 76,
       "value": 462.63
     },
     {
-      "day": 84,
+      "day": 77,
       "value": 459.59
     },
     {
-      "day": 85,
+      "day": 78,
       "value": 458.66
     },
     {
-      "day": 86,
+      "day": 79,
       "value": 462.6
     },
     {
-      "day": 87,
+      "day": 80,
       "value": 481.26
     },
     {
-      "day": 88,
+      "day": 81,
       "value": 492.4
     },
     {
-      "day": 89,
+      "day": 82,
       "value": 492.7
+    },
+    {
+      "day": 83,
+      "value": 487.87
+    },
+    {
+      "day": 84,
+      "value": 485.48
+    },
+    {
+      "day": 85,
+      "value": 485.25
+    },
+    {
+      "day": 86,
+      "value": 480.07
+    },
+    {
+      "day": 87,
+      "value": 475.55
+    },
+    {
+      "day": 88,
+      "value": 473.04
+    },
+    {
+      "day": 89,
+      "value": 468.11
     }
   ],
   "projection": [
     {
       "day": 90,
-      "date": "2026-11-09",
-      "value": 470.53
+      "date": "2026-11-16",
+      "value": 474.61
     },
     {
       "day": 91,
-      "date": "2026-11-10",
-      "value": 470.91
+      "date": "2026-11-17",
+      "value": 475.04
     },
     {
       "day": 92,
-      "date": "2026-11-11",
-      "value": 471.29
+      "date": "2026-11-18",
+      "value": 475.46
     },
     {
       "day": 93,
-      "date": "2026-11-12",
-      "value": 471.67
+      "date": "2026-11-19",
+      "value": 475.89
     },
     {
       "day": 94,
-      "date": "2026-11-13",
-      "value": 472.05
+      "date": "2026-11-20",
+      "value": 476.32
     },
     {
       "day": 95,
-      "date": "2026-11-14",
-      "value": 472.43
+      "date": "2026-11-21",
+      "value": 476.75
     },
     {
       "day": 96,
-      "date": "2026-11-15",
-      "value": 472.81
+      "date": "2026-11-22",
+      "value": 477.17
     }
   ],
-  "trend_slope_per_day": 0.3791,
+  "trend_slope_per_day": 0.4273,
   "honest_note": "La projection couvre 7 jours \u00e0 partir de 90 jours d'historique r\u00e9el de CO2 (0 trou(s) connu(s) dans la source). C'est une simple droite trac\u00e9e sur une seule fen\u00eatre saisonni\u00e8re de donn\u00e9es atmosph\u00e9riques r\u00e9elles -- le CO2 suit un cycle annuel bien connu (plus bas pendant la saison de croissance de l'h\u00e9misph\u00e8re nord, plus haut en hiver), donc une tendance mesur\u00e9e sur 90 jours d'\u00e9t\u00e9/automne ne doit PAS \u00eatre extrapol\u00e9e au-del\u00e0 d'un changement de saison. Ne faites confiance \u00e0 cette projection que sur quelques jours."
 }
